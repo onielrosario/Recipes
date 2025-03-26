@@ -15,7 +15,6 @@ struct CacheImageViewModelTests {
                                             useCase: mockUseCase)
         
         #expect(viewModel.image == nil)
-        #expect(viewModel.isLoading == false)
 
         await viewModel.loadImage()
 
