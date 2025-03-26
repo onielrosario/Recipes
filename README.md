@@ -68,6 +68,7 @@ While the image caching is robust, there’s no cache invalidation or size limit
 - The app requires iOS 16+ due to SwiftUI and `NavigationStack` usage.
 - I used actors and `@MainActor` judiciously to satisfy Swift 6’s stricter concurrency model, especially around `ObservableObject` properties.
 - I structured the project with scalability in mind — it would be easy to plug in new endpoints, features, or deeper models.
+- I left Extra properties on the Recipe Model in thoughts for adding a detail page where users could watch the youtube link.
 
 ### Accessibility
 
