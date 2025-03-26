@@ -33,7 +33,7 @@ final class CacheImageViewModel: ObservableObject {
         do {
             image = try await useCase.fetchImage(for: urlString)
         } catch {
-            print("Image load error: \(error)")
+            image = placeholder
         }
     }
 }
