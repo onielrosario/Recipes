@@ -9,6 +9,7 @@ This SwiftUI-based recipe app fetches and displays recipes from different API en
 - See appropriate error or empty state messages
 - Retry fetching via a "Try Again" button
 - Experience smooth image loading with memory + disk caching (no third-party libraries)
+- ✅ CI: Automatically runs tests on each commit using GitHub Actions.
 
 ### Screenshots
 
